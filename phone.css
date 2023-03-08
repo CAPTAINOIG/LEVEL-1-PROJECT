@@ -1,0 +1,63 @@
+@media(max-width: 600px) {
+    .max {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 100px;
+        gap: 100px;
+        margin-left: 50px;
+        width: 20px;
+        margin-top:-30px;  
+      }
+      .finance {
+        color: indigo;
+        position: absolute;
+        top: 635%;
+        left: 25%;
+        font-weight: bold;
+      }
+      .retail {
+        color: indigo;
+        position: absolute;
+        top: 655%;
+        left: 30%;
+        font-weight: bold;
+      }
+      .health {
+        color: indigo;
+        color: indigo;
+        position: absolute;
+        top: 675%;
+        left: 30%;
+        font-weight: bold;
+      }
+      .manufacture {
+        color: indigo;
+        position: absolute;
+        top: 700%;
+        left: 30%;
+        font-weight: bold;
+      }
+      .choose {
+        display: none
+      }
+      #world {
+     
+      }
+      .tower {
+        font-size: 12px;
+        color: white;
+      }
+      #pas {
+        display: ;
+        justify-content: space-around;
+        text-decoration: underline;
+        color: rgb(1, 118, 211);
+        font-size: 12px;
+        margin-left: 0px;
+        padding: 10px;
+        gap: 10px;
+        margin-top: 10px;
+        width: 100%;
+      }
+}
+
