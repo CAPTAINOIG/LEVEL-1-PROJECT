@@ -255,9 +255,10 @@ body {
     border: 0px solid;
   }
   #ima {
-    width: 120px;
-    height: 120px;
-    margin-left: 150px;
+    width: 80px;
+    height: 80px;
+    margin-left: 100px;
+    margin-top: -10px;
   }
   .side {
     text-decoration: underline;
@@ -285,9 +286,9 @@ body {
 .max {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  padding: 100px;
+  padding: 150px;
   gap: 100px;
-  margin-left: 250px;
+  margin-left: 200px;
   width: 20px;
   margin-top:-30px;
 }
@@ -301,9 +302,8 @@ body {
 }
   .finance {
     color: indigo;
-    position: absolute;
-    top: 330%;
-    left: 25%;
+    margin-left: -20px;
+    margin-top: 20px;
     font-weight: bold;
 }
   .finance:hover {
@@ -311,20 +311,17 @@ body {
   } 
   .retail {
     color: indigo;
-    position: absolute;
-    top: 330%;
-    left: 41%;
     font-weight: bold;
+    margin-left: -10px;
+    margin-top: 20px;
   }
   .retail:hover {
     color: blue;
   }
   .health {
     color: indigo;
-    color: indigo;
-    position: absolute;
-    top: 330%;
-    left: 52%;
+    margin-left: -20px;
+    margin-top: 20px;
     font-weight: bold;
   }
   .health:hover {
@@ -332,10 +329,9 @@ body {
   }
   .manufacture {
     color: indigo;
-    position: absolute;
-    top: 330%;
-    left: 65%;
     font-weight: bold;
+    margin-left: -20px;
+    margin-top: 20px;
   }
   .manufacture:hover {
     color: blue;
@@ -511,6 +507,7 @@ body {
 }
 #zed {
   background-color: rgb(3, 46, 97);
+  width: 100%;
 }
 .tower {
   font-size: 12px;
